@@ -2,7 +2,7 @@
 title: The Insights | تێڕوانینەکان
 author: Haithem Talaat
 translator: Shad Arif Mohammed
-Chapter: یەکەم
+Chapter: دەستپێك
 tags:
 dateCreated: 2026-11-03T20:11:08.364+01:00
 Rights: All rights are reserved to respectful Dr. Haitham Talaat
