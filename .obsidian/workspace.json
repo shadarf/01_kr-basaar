@@ -11,10 +11,14 @@
             "id": "06a1df84045356b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2-translation/01_Chapter-1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "01_Chapter-1"
             }
           }
         ]
@@ -181,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,9 +208,13 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "06a1df84045356b8",
+  "active": "8d863ca0f034364a",
   "lastOpenFiles": [
+    "Screenshots/202611062228.md",
     "2-translation/01_Chapter-1.md",
+    "Screenshots/design_1.png",
+    "Screenshots/design_1.psd",
+    "Screenshots/Pasted image 20261106214344.png",
     "TaskNotes/Views/mini-calendar-default.base",
     "dailyTasks/2026-11-05.md",
     "dailyTasks/re-clone the project from Github -- restarting from yesterday's version.md",
@@ -229,7 +238,6 @@
     "01_kr-basaar-main.zip",
     "dailyTasks/Create page 1 of the book, and write 1 sentence at least to be translated to Kurdish language.md",
     "dailyTasks/instrall and set up TaskNotes for Obsidian community plug in, and learn how to use it.md",
-    "TaskNotes/Views/tasks-default.base",
     "dailyTasks/Create the obsidian vault + Notes.md",
     "TaskNotes/Start Here.md",
     "dailyTasks/Set up task planner.md"
