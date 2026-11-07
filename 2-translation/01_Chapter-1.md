@@ -178,6 +178,37 @@ P(پەڕەی پێنجەم)
 - [ ] گوێ پێ نەدەر
 - [ ] مرۆڤ پەروەر
 
+
+
+```mermaid
+flowchart TD
+    %% دیاریکردنی شێواز و ڕەنگەکان
+    classDef mainTitle fill:#2C3E50,stroke:#FFF,stroke-width:2px,color:#FFF,font-size:16px,font-weight:bold;
+    classDef atheism fill:#E74C3C,stroke:#C0392B,stroke-width:2px,color:#FFF,font-size:14px;
+    classDef deism fill:#3498DB,stroke:#2980B9,stroke-width:2px,color:#FFF,font-size:14px;
+    classDef agnosticism fill:#F1C40F,stroke:#F39C12,stroke-width:2px,color:#2C3E50,font-size:14px;
+    classDef apatheism fill:#9B59B6,stroke:#8E44AD,stroke-width:2px,color:#FFF,font-size:14px;
+    classDef humanism fill:#1ABC9C,stroke:#16A085,stroke-width:2px,color:#FFF,font-size:14px;
+
+    %% نۆدی سەرەکی
+    Ae((پۆلێنی بێباوەڕ و جیهانبینییەکان)):::mainTitle
+
+    %% نۆدەکان بە ئایکۆن و وسفەوە لە ناو کەوانەی دووانەدا
+    A["ئەتایست (Atheist)<br>ئەوەی کە ئینکاری بوونی غەیبێك دەکات<br>کە سەرچاوەی زانیارییەکەی ئایین بێت."]---atheism
+    D["خوداپەروەر (Deist)<br>ئەو کەسەی باوەڕی بە خودایەکی دروستکەری<br>گەردوون هەیە، بەڵام باوەڕی بە دین نییە."]---deism
+    Ag["نازانم (Agnostic)<br>ئەو کەسەیە کە دڵنیا نییە لە بوونی خودا<br>و نەبوونی، کەسێکی وەستاوە."]---agnosticism
+    IDC["گوێ پێ نەدەر (Apatheist)<br>کەسێکە کە گوێ بە بابەتی<br>هەبوونی خودا نادات."]---apatheism
+    H["مرۆڤدۆست (Humanist)<br>کەسێکە کە تەنها گرنگی<br>بە مرۆڤدۆستی دەدات."]---humanism
+
+    %% گرێدانەکان
+    Ae --> A
+    Ae --> D
+    Ae --> Ag
+    Ae --> IDC
+    Ae --> H
+```
+
+
 ![[design_1.png]]
 
 (٥) لسان العرب، إبن منظور، ماددەی لحد.
@@ -189,8 +220,7541 @@ P(پەڕەی شەشەم)
 ---
 
 
+§1
+
+>[!summary] Arabic Text
+>هذه أشهر تقسيمات المذاهب الإلحادية المعاصرة.
+وكل أتباع هذه التقسيمات يمكن أن نطلق عليهم: اللادينيين، فالملحد
+والربوبي واللاأدري واللااکترائي کلهم لادینیون؛ أما الھیوماني قد یکون غیر ملحد.
+هوهنا ملاحظة هامة:
+> 
+> 
+> 
 
 
+
+
+>[!summary] Kurdish Text
+> ئەمانە ناسراوترین پۆلێنەکانی قوتابخانە فیکرییە بێباوەڕییە هاوچەرخەکانن.
+هەموو لایەنگرانی ئەم پۆلێنانە دەکرێت بە 'نا-ئایینی' ناوببرێن، چونکە بێباوەڕان، خوداباوران، ئاگنۆستیکەکان و نا-خوداباوران هەموویان نا-ئایینین؛ لە کاتێکدا ڕەنگە مرۆڤدۆستێک بێباوەڕ نەبێت.
+تێبینییەکی گرنگ:
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+> These are the most well-known classifications of contemporary atheistic schools of thought.
+> All adherents of these classifications can be referred to as “non-religious,” since atheists,
+theists, agnostics, and non-theists are all non-religious; whereas a humanist may not be an atheist.
+Here is an important note:
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>٦ يوجد فَزْق بین التعریف اللغوي للإلحاد، والتعریف الاصطلاحي!
+فالتعريف اللغويُّ للإلحاد هو: المَيْل، وبالتالي يدخل تحت هذا التعريف: أصحاب
+الفِرَق الضالَّة کالمُعظّلة وغیرِهم!
+كم لذلك ورود كلمة ملحد في كتب المتقدمين لا تعني المفهوم الاصطلاحي
+المعاصر للإلحاد، والذي يعني إنكار الخالق والنُّبوَّات، لكنها تعني نوعًا من الانحراف
+في باب من أبواب العقيدة کباب: الأسماء والصفات.
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>٦. جیاوازییەک هەیە لە نێوان پێناسەی زمانەوانیی بێباوەڕی و پێناسەی تەکنیکیدا!
+پێناسەی زمانەوانیی بێباوەڕی بریتییە لە: 'لایەنگرییەک'؛ لە ئەنجامدا، ئەم پێناسەیە پەیڕەوانی مەزهەبە لادەرەکانی وەک موعتەزلیە و ئەوانی تر دەگرێتەوە!
+لە ئەنجامدا، بەکارهێنانی وشەی 'کەفراو' لە نووسینەکانی زانایانی پێشوودا ئاماژە نییە بۆ چەمکە تەکنیکییە هاوچەرخەکەی کەفر—کە ڕەتکردنەوەی خەلقکەر و پێغەمبەرایەتی لەخۆدەگرێت—بەڵکو ئاماژەیە بۆ شێوەیەک لە لادان لە لایەنێکی بیروباوەڕدا، وەک بەشی ناو و سیفەتەکانی خودا.
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>6. There is a discrepancy between the linguistic definition of atheism and the technical definition!
+The linguistic definition of atheism is: “inclination”; consequently, this definition includes the followers
+of deviant sects such as the Mu’tazilites and others!
+Therefore, the use of the word “atheist” in the works of earlier scholars does not refer to the contemporary technical
+concept of atheism—which means denying the Creator and prophethood—but rather refers to a kind of deviation
+in one of the branches of creed, such as the chapter on the Names and Attributes of God.
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>لذلك من قال: إن ابن سينا أو أيًّا من فلاسفة المسلمین کان ملحدًا، وینسبه للإلحاد
+بمعناه الاصطلاحى المعاصر فقد أخطأ؛ لأنه ليس أحد من هؤلاء كان ملحدًا
+بالتعريف الاصطلاحي المعاصر للإلحاد، وإنما كان لبعضهم خلل في بعض
+القضايا العَقدية.
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>بۆیە، هەر کەسێک بانگەشەی ئەوە بکات کە ئیبن سینا یان هەر یەکێک لە فەیلەسوفە موسڵمانەکان بێباوەڕ بووە، و بە بێباوەڕی تۆمەتبار بکات بەپێی پێناسە تەکنیکییە هاوچەرخەکەی، ئەوا بەهەڵەدا چووە؛ چونکە هیچ کام لەوان بەپێی پێناسە تەکنیکییە هاوچەرخەکەی بێباوەڕی بێباوەڕ نەبوون، بەڵکو هەندێکیان بۆچوونی هەڵەیان لەسەر هەندێک بابەتی بنەڕەتی هەبووە.
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>Therefore, anyone who claims that Ibn Sina or any of the Muslim philosophers was an atheist—and attributes atheism to him
+in its contemporary technical sense—is mistaken; for none of them was an atheist
+according to the contemporary technical definition of atheism, though some of them did hold erroneous views on certain
+doctrinal issues.
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+
+
+
+
+
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
+§1
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§2
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§3
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§4
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+---
+
+§ 
+
+>[!summary] Arabic Text
+>
+> 
+> 
+> 
+
+
+
+
+>[!summary] Kurdish Text
+>
+> 
+> 
+> 
+
+
+
+>[!summary] English Text
+>
+> 
+
+
+```mermaid
+flowchart LR
+P(پەڕەی  )
+``` 
+
+---
 
 
 
