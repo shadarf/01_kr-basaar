@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "06a1df84045356b8",
+            "id": "3b3b2829a1306802",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-translation/01_Chapter-1.md",
+                "file": "2-translation/03_Chapter-3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Chapter-1"
+              "title": "03_Chapter-3"
             }
           }
         ]
@@ -179,14 +179,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "015550e972b860ef",
+            "type": "leaf",
+            "state": {
+              "type": "opencode-terminal",
+              "state": {},
+              "icon": "terminal",
+              "title": "Opencode"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,41 +214,54 @@
       "tasknotes:Open Kanban board": false,
       "tasknotes:Open Pomodoro timer": false,
       "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false
+      "tasknotes:Create new task": false,
+      "opencode:Opencode terminal": false,
+      "opencode:Opencode conversations": false
     }
   },
-  "active": "8d863ca0f034364a",
+  "active": "3b3b2829a1306802",
   "lastOpenFiles": [
-    "Screenshots/202611062228.md",
-    "2-translation/01_Chapter-1.md",
-    "Screenshots/design_1.png",
-    "Screenshots/design_1.psd",
-    "Screenshots/Pasted image 20261106214344.png",
-    "TaskNotes/Views/mini-calendar-default.base",
-    "dailyTasks/2026-11-05.md",
-    "dailyTasks/re-clone the project from Github -- restarting from yesterday's version.md",
-    "dailyTasks/Fix the Crashed Obsidian software and delete the entire project.md",
-    "TaskNotes/Tasks/Start page 4 and bring in screenshots and live links to the items as I go along.md",
     "TaskNotes/Views/kanban-default.base",
+    "2-translation/03_Chapter-3.md",
+    "final_garbled_check7.txt",
+    "final_garbled_check6.txt",
+    "final_garbled_check5.txt",
+    "final_garbled_check4.txt",
+    "final_garbled_check3.txt",
+    "final_garbled_check2.txt",
+    "final_garbled_check.txt",
+    "remaining_garbled.txt",
+    "garbled_lines.txt",
+    "dailyTasks/2026-11-08.md",
+    "TaskNotes/Tasks/review the translated Chapter 2.md file.md",
+    "dailyTasks/start creating the chapters draft as I go along with OpenCode.md",
+    "dailyTasks/Train OpenCode Nimotron Model on the workflow to automate the drafting of the chapters.md",
+    "dailyTasks/Create the Example file for the workflow above.md",
+    "dailyTasks/Start Translation workflow plan.md",
     "dailyTasks/2026-11-03.md",
-    "TaskNotes/Views/calendar-default.base",
-    "TaskNotes/Tasks",
+    "dailyTasks/2026-11-05.md",
     "2-translation/00_Opening.md",
+    "2-translation/01_Chapter-1.md",
+    "Plan.md",
+    "2-translation/02_Chapter-2.md",
+    "2-translation/05_Chapter-5.md",
+    "2-translation/04_Chapter-4.md",
+    "01-input/ar-basaar.pdf.md",
+    "StructuredPlan/StructuredPlan.md",
+    "2-translation/06_Chapter-6.md",
+    "2-translation/08_Chapter-8.md",
+    "2-translation/09_Chapter-9.md",
+    "2-translation/11_Chapter-11.md",
+    "2-translation/10_Chapter-10.md",
+    "2-translation/07_Chapter-7.md",
+    "2-translation/_manifest.md",
+    "StructuredPlan/Example.md",
+    "Screenshots/Pasted image 20261108150917.png",
+    "Screenshots/design_1.png",
+    "Screenshots/Pasted image 20261106214344.png",
     "Screenshots/Pasted image 20261105221347.png",
     "Screenshots/Pasted image 20261105221256.png",
     "Screenshots/Pasted image 20261105221205.png",
-    "Screenshots/Pasted image 20261105220745.png",
-    "Screenshots",
-    "Plan.md",
-    "01_kr-basaar-main/01_kr-basaar-main/README.md",
-    "01_kr-basaar-main/01_kr-basaar-main/LICENSE",
-    "01_kr-basaar-main/01_kr-basaar-main",
-    "01_kr-basaar-main",
-    "01_kr-basaar-main.zip",
-    "dailyTasks/Create page 1 of the book, and write 1 sentence at least to be translated to Kurdish language.md",
-    "dailyTasks/instrall and set up TaskNotes for Obsidian community plug in, and learn how to use it.md",
-    "dailyTasks/Create the obsidian vault + Notes.md",
-    "TaskNotes/Start Here.md",
-    "dailyTasks/Set up task planner.md"
+    "Screenshots/Pasted image 20261105220745.png"
   ]
 }
