@@ -1,0 +1,4 @@
+Sections: 36
+Quranic verses: 72
+Arabic blocks with content: 36
+File size: 99.189453125 KB

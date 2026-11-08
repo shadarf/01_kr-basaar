@@ -1,0 +1,7 @@
+Section 30: has_quran=True, has_arabic=True, length=4589
+Section 31: has_quran=True, has_arabic=True, length=1542
+Section 32: has_quran=False, has_arabic=False, length=2202
+Section 33: has_quran=False, has_arabic=False, length=1979
+Section 34: has_quran=False, has_arabic=False, length=3617
+Section 35: has_quran=False, has_arabic=False, length=1206
+Section 36: has_quran=False, has_arabic=False, length=4263

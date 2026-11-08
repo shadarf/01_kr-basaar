@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "10964db1c3bf3a2c",
+        "id": "93bb53d13d9d010a",
         "type": "tabs",
         "children": [
           {
-            "id": "3b3b2829a1306802",
+            "id": "c7e8af8e09358f70",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-translation/03_Chapter-3.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "03_Chapter-3"
+              "title": "New tab"
             }
           }
         ]
@@ -219,49 +215,52 @@
       "opencode:Opencode conversations": false
     }
   },
-  "active": "3b3b2829a1306802",
+  "active": "8d863ca0f034364a",
   "lastOpenFiles": [
-    "TaskNotes/Views/kanban-default.base",
-    "2-translation/03_Chapter-3.md",
-    "final_garbled_check7.txt",
-    "final_garbled_check6.txt",
-    "final_garbled_check5.txt",
-    "final_garbled_check4.txt",
-    "final_garbled_check3.txt",
-    "final_garbled_check2.txt",
-    "final_garbled_check.txt",
-    "remaining_garbled.txt",
-    "garbled_lines.txt",
+    "1-input/ar-basaar.pdf",
+    "1-input/ar-basaar.md",
+    "2-translation/06_Chapter-6.md",
     "dailyTasks/2026-11-08.md",
+    "dailyTasks/Use direct PDF-- Markdown converted to convert the Book to Markdown for direct usage by the translation pipeline.md",
+    "dailyTasks/2026-11-05.md",
+    "1-input/ar-basaar attachments/image-3273-526299b0.png",
+    "1-input/ar-basaar attachments/image-3272-e40f1bb6.png",
+    "1-input/ar-basaar attachments/image-3271-737118ed.png",
+    "1-input/ar-basaar attachments/image-3270-ab4455e7.png",
+    "1-input/ar-basaar attachments/image-3269-780d60f9.png",
+    "1-input/ar-basaar attachments/image-3268-77ed0cbb.png",
+    "1-input/ar-basaar attachments/image-3267-9f985848.png",
+    "1-input/ar-basaar attachments/image-3266-05c3b09b.png",
+    "1-input/ar-basaar attachments/image-3265-f920e7b0.png",
+    "1-input/ar-basaar attachments/image-3264-3ef1d98d.png",
+    "1-input/ar-basaar attachments",
+    "2-translation/00_Opening.md",
+    "2-translation/05_Chapter-5.md",
+    "2-translation/07_Chapter-7.md",
+    "2-translation/04_Chapter-4.md",
+    "update_s5.py",
+    "chapter6_arabic.txt",
+    "extract_ch6.py",
+    "ch5_final_stats.txt",
+    "ch5_stats.py",
+    "update_s13_22.py",
+    "update_s12.py",
+    "chapter5_arabic.txt",
+    "2-translation/03_Chapter-3.md",
     "TaskNotes/Tasks/review the translated Chapter 2.md file.md",
     "dailyTasks/start creating the chapters draft as I go along with OpenCode.md",
     "dailyTasks/Train OpenCode Nimotron Model on the workflow to automate the drafting of the chapters.md",
     "dailyTasks/Create the Example file for the workflow above.md",
     "dailyTasks/Start Translation workflow plan.md",
     "dailyTasks/2026-11-03.md",
-    "dailyTasks/2026-11-05.md",
-    "2-translation/00_Opening.md",
     "2-translation/01_Chapter-1.md",
     "Plan.md",
     "2-translation/02_Chapter-2.md",
-    "2-translation/05_Chapter-5.md",
-    "2-translation/04_Chapter-4.md",
     "01-input/ar-basaar.pdf.md",
     "StructuredPlan/StructuredPlan.md",
-    "2-translation/06_Chapter-6.md",
     "2-translation/08_Chapter-8.md",
     "2-translation/09_Chapter-9.md",
     "2-translation/11_Chapter-11.md",
-    "2-translation/10_Chapter-10.md",
-    "2-translation/07_Chapter-7.md",
-    "2-translation/_manifest.md",
-    "StructuredPlan/Example.md",
-    "Screenshots/Pasted image 20261108150917.png",
-    "Screenshots/design_1.png",
-    "Screenshots/Pasted image 20261106214344.png",
-    "Screenshots/Pasted image 20261105221347.png",
-    "Screenshots/Pasted image 20261105221256.png",
-    "Screenshots/Pasted image 20261105221205.png",
-    "Screenshots/Pasted image 20261105220745.png"
+    "2-translation/10_Chapter-10.md"
   ]
 }
